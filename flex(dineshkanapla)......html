@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex property</title>
+    <style>
+        #container {
+            display:flex;
+            flex-direction: row; 
+            flex-wrap:wrap; 
+            justify-content:start; 
+            align-content: center; 
+            width: 100%;
+            height: 100%;
+            margin:auto; 
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: aqua;
+         }
+
+        #fruit {
+            background-color: orange;
+            margin: 20px;
+            padding: 30px;
+            line-height: 10px; 
+            letter-spacing: 10px; 
+            text-align:center;
+            text-shadow: 2px  1.5px;
+   }  
+   #fruit1{
+    background-color: red;
+    margin: 20px;
+    padding: 30px;
+    line-height: 10px; 
+    letter-spacing: 3px; 
+    text-align:center;
+    text-shadow: 2px  1.5px;
+}      
+#fruit2{
+    background-color:yellow;
+    margin: 20px;
+    padding: 30px;
+    line-height: 10px; 
+    letter-spacing: 3px; 
+    text-align:center;
+    text-shadow: 2px  1.5px;
+}
+#fruit3 {
+    background-color:rgb(117, 5, 5);
+    margin: 20px;
+    padding: 30px;
+    line-height: 10px; 
+    letter-spacing: 5px; 
+    text-align:center;
+    text-shadow: 1.5px  1.0px;
+}
+ </style>
+</head>
+<body>
+    <div id="container">
+        <div id="fruit">orange</div>
+        <div id="fruit1">Apple</div>
+        <div id="fruit2">banana</div>
+        <div id="fruit3">pomegranate</div>
+        <p> The text-shadow property adds shadow to text.
+             This property accepts a comma-separated list of shadows to be applied to the text.
+            <style>
+                p{
+                line-height: 10px;
+                letter-spacing: 3px;
+                 }
+            </style>
+            </p>
+    </div>
+</body>
+</html>
